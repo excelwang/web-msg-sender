@@ -8,7 +8,7 @@ Web消息实时推送。websocket+PHP多进程（[workerman框架](http://www.wo
 
 
 后台发布消息页面:http://ip:3333  
-用户接受消息页面:http://ip:3333/web-msg-sender.html  
+用户接受消息页面:http://ip:3333/get.html  
 
 接收消息的页面只依赖Web/js/sender.js（不支持websocket的浏览器也会依赖Web/swf/SebSocketMain.swf，通过flash实现websocket连接到workerman服务），  
 可以将 js/sender.js 和 /swf/SebSocketMain.swf放入你的站点并引用 js/sender.js，便可以接收消息推送 
