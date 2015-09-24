@@ -1,7 +1,7 @@
 ws = {};
 if (typeof console == "undefined") {    this.console = { log: function (msg) {  } };}
 WEB_SOCKET_SWF_LOCATION = "swf/WebSocketMain.swf";
-WEB_SOCKET_DEBUG = true;
+WEB_SOCKET_DEBUG = false;
 WEB_SOCKET_SUPPRESS_CROSS_DOMAIN_SWF_ERROR = true
 window.onload = function()
 {
@@ -24,7 +24,7 @@ window.onload = function()
 	        		show_msg(data);
 	        	}
 	        	else{
-	        		alert('from_client_id:'+data['from_client_id'] + ' to_client_id:' + data['to_client_id'] + '消息:' +data['content'] + '时间:' + data['time']);
+	        		//alert('from_client_id:'+data['from_client_id'] + ' to_client_id:' + data['to_client_id'] + '消息:' +data['content'] + '时间:' + data['time']);
 	        	}
 	      	  break;
 	  }
