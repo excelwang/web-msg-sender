@@ -35,7 +35,7 @@ demo
 
 3、命令行运行echo extension=libevent.so > /etc/php.d/libevent.ini
 
-4、命令行运行cd /home/ && git clone https://github.com/walkor/web-msg-sender
+4、命令行运行cd /home/ && git clone https://github.com/excelwang/web-msg-sender
 
 5、命令行运行php start.php start -d
 
@@ -48,7 +48,7 @@ demo
 
 3、命令行运行echo extension=libevent.so > /etc/php5/cli/conf.d/libevent.ini
 
-4、命令行运行cd /home/ && git clone https://github.com/walkor/web-msg-sender
+4、命令行运行cd /home/ && git clone https://github.com/excelwang/web-msg-sender
 
 5、命令行运行php start.php start -d
 
@@ -60,7 +60,7 @@ demo
 
 步骤：  
 1、下载代码到本地,从源码中找到Workerman目录并删除  
-2、下载windows版本workerman，zip地址 https://github.com/walkor/workerman-for-win/archive/master.zip  
+2、下载windows版本workerman，zip地址 https://github.com/excelwang/workerman-for-win/archive/master.zip  
 3、解压到原Worekrman目录所在位置，同时目录workerman-for-win-master重命名为Workerman(注意第一个字母W为大写)  
 4、双击start_for_win.bat启动（系统已经装好php，并设置好环境变量，要求版本php>=5.3.3）  
 
@@ -72,16 +72,6 @@ windows系统下无法使用 stop reload status 等命令
 
  
 workerman相关参见 [www.workerman.net](http://www.workerman.net/)
-=================
-
-workerman更多有趣的应用：
-=======================
-
-[小蝌蚪聊天室](http://kedou.workerman.net) 
-
-[多人在线flappy birds](http://www.workerman.net/demos/flappy-bird/)
-
-[其它](http://www.workerman.net/applications)
 
 
 
